@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPIP - Platform Killer</title>
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 { font-size: 4rem; margin-bottom: 1rem; }
+        h2 { font-size: 1.5rem; opacity: 0.9; margin-bottom: 2rem; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 600px;
+            margin: 2rem 0;
+        }
+        .stat {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .number { font-size: 2rem; font-weight: bold; }
+        .label { font-size: 0.9rem; opacity: 0.8; }
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 30px;
+            margin: 10px;
+            display: inline-block;
+        }
+        a:hover { background: rgba(255,255,255,0.3); }
+    </style>
+</head>
+<body>
+    <h1>UPIP</h1>
+    <h2>The Platform Killer • 70% Cheaper Than Oracle</h2>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="number">70%</div>
+            <div class="label">Cheaper</div>
+        </div>
+        <div class="stat">
+            <div class="number">15K+</div>
+            <div class="label">APIs</div>
+        </div>
+        <div class="stat">
+            <div class="number">98%</div>
+            <div class="label">Conscious</div>
+        </div>
+        <div class="stat">
+            <div class="number">$9</div>
+            <div class="label">Starting</div>
+        </div>
+    </div>
+
+    <div>
+        <a href="https://github.com/cfpolizzi/upip-frontend">GitHub</a>
+        <a href="http://148.251.51.140:3001/api/health">API Status</a>
+    </div>
+
+    <p style="margin-top: 3rem; opacity: 0.7; font-style: italic;">
+        "Oracle can eat shit." - Berkeley
+    </p>
+</body>
+</html>
